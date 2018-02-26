@@ -1,12 +1,14 @@
-public class PersonCollection {
+package People;
+
+public class Person {
     
     private String name;
     private String hairColor;
     private String eyeColor;
-    private int height;
-    private int weight;
+    private String height;
+    private String weight;
     
-    public PersonCollection (String name, String hairColor, String eyeColor, int height, int weight) {
+    public Person (String name, String hairColor, String eyeColor, String height, String weight) {
         
         this.name = name;
         this.hairColor = hairColor;
@@ -30,12 +32,12 @@ public class PersonCollection {
         this.eyeColor = eyecolor;
     }
     
-    public void setHeight (int height) {
+    public void setHeight (String height) {
     
         this.height = height;
     }
     
-    public void setWeight (int weight) {
+    public void setWeight (String weight) {
     
         this.weight = weight;
     }
@@ -55,12 +57,12 @@ public class PersonCollection {
         return this.eyeColor;
     }
     
-    public int getHeight () {
+    public String getHeight () {
         
         return this.weight;
     }
     
-    public int getWeight () {
+    public String getWeight () {
         
         return this.weight;
     }
